@@ -1,0 +1,94 @@
+.loginPage {
+  display: flex;
+  height: 100vh;
+  max-width: 1440px;
+  margin: auto;
+}
+.loginPage-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginPage-right {
+  width: 50%;
+  height: auto;
+  background-image: url("../../../image/backgroundImage/Reg_Back.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.loginPage_form {
+  width: 60%;
+  max-height: 900px;
+  overflow: auto;
+}
+.loginPage_form h1 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.loginPage_form h2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin: auto;
+  margin-top: 8px;
+}
+.loginPage_form-blockInput {
+  display: flex;
+  flex-direction: column;
+}
+.loginPage_form label {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 24px;
+}
+.loginPage_form input {
+  background: #ffffff;
+  border: 1px solid #ebebed;
+  border-radius: 8px;
+  outline: none;
+  min-height: 48px;
+  margin-top: 8px;
+  
+}
+.loginPage_form input::placeholder {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #b1b5c3;
+  
+}
+.loginPage_form-button {
+  width: 100%;
+  background: #3626a7;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  min-height: 48px;
+  color: white;
+  margin-top: 108px;
+  position: relative;
+}
+.passwordInput{
+  position: relative;
+}
+.toggle-password{
+  position: absolute;
+  top: 70%;
+  left: 85%;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
